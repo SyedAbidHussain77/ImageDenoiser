@@ -15,4 +15,6 @@ MNIST dataset which stands for Modified National Institute of Standards and Tech
 
 ### Architecture of Model
 
+| Layer | Number of Filter |
+
 
