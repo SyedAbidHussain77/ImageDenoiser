@@ -6,9 +6,9 @@ Implemented it on MNIST dataset using Pytorch and CNN.
 2. Architecture of Model
 3. Hyperparameters
 4. Training
-5. Results
+5. Results 
 
-### MNIST
+### MNIST Dataset
 MNIST dataset which stands for Modified National Institute of Standards and Technology dataset. It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9. 
 
 ![This is an image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI3MtlwiEYvnWsRhIV1sWYa16YjBdYn1ICMeoe0vUw_GNeGZMjcC74WkXz1CdnOpMqb8k&usqp=CAU)
@@ -33,15 +33,15 @@ MNIST dataset which stands for Modified National Institute of Standards and Tech
 | Momentum      | 0.9   |
 
 ### Training 
-#### Noise Added
+**Noise Added**
 Random noise added via torch.randn() such that we can change noise by changing noise factor. We can also add Gaussin noise,salt noise and many more types of noises.
 
 ### Result 
-##### Output (Denoised Image)             
+**Output (Denoised Image)**             
 
 ![screenshot-colab research google com-2021 10 16-23_51_36](https://user-images.githubusercontent.com/88239463/137598249-e9737d34-8a03-4ea4-adf8-a96d9e540829.png)
 
-##### Input (Noised Image)
+**Input (Noised Image)**
 
 
 
