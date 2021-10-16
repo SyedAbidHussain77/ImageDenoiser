@@ -15,6 +15,12 @@ MNIST dataset which stands for Modified National Institute of Standards and Tech
 
 ### Architecture of Model
 
-| Layer | Number of Filter |
+| Layer          | Number of Filter | Filter Size | Max Pool | Padding | Stride |
+| -------------- | ---------------- | ----------- | -------- | ------- | ------ |
+| Con1           | 16               | 3           | None     | 1       | None   |
+| Con2           | 32               | 3           | None     | 1       | None   |
+| Con3           | 64               | 3           | 2x2      | 1       | None   |
+| ConvTranspose1 | 16               | 2           | None     | None    | 2      |
+| ConvTranspose2 | 1                | 2           | 2x2      | None    | 2      |
 
 
