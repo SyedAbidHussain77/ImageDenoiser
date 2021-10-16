@@ -24,3 +24,10 @@ MNIST dataset which stands for Modified National Institute of Standards and Tech
 | ConvTranspose2 |         1        |      2      |   2x2    |  None   |   2    |
 
 
+### Hypermeters 
+
+| Hypermeters   | Value |
+| ------------- | ----- |
+| Epochs        | 20    |
+| Learning Rate | 0.01  |
+| Momentum      | 0.9   |
