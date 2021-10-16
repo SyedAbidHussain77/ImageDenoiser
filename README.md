@@ -34,6 +34,7 @@ MNIST dataset which stands for Modified National Institute of Standards and Tech
 
 ### Training 
 **Noise Added**
+
 Random noise added via torch.randn() such that we can change noise by changing noise factor. We can also add Gaussin noise,salt noise and many more types of noises.
 
 ### Result 
