@@ -37,4 +37,6 @@ MNIST dataset which stands for Modified National Institute of Standards and Tech
 Random noise added via torch.randn() such that we can change noise by changing noise factor. We can also add Gaussin noise,salt noise and many more types of noises.
 
 ### Result 
-Output ![screenshot-colab research google com-2021 10 16-23_51_36](https://user-images.githubusercontent.com/88239463/137598249-e9737d34-8a03-4ea4-adf8-a96d9e540829.png)
+Output               ![screenshot-colab research google com-2021 10 16-23_51_36](https://user-images.githubusercontent.com/88239463/137598249-e9737d34-8a03-4ea4-adf8-a96d9e540829.png)
+
+Input
